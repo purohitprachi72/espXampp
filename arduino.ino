@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-String URL = "http://ip/data_acquisition/test_data.php";
+String URL = "http://ip/data_acquisition/test_data.php"; // ip address 
 
-const char* ssid = "ssid";
-const char* password = "****"";
+const char* ssid = "ssid"; //wifi name 
+const char* password = "****""; //wifi pwd
 
 int temperature = 48;
 int humidity = 84;
